@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_frontend" name="your_module_name assets" inherit_id="website.assets_frontend">
+        <xpath expr="script[last()]" position="after">
+            <link rel="stylesheet" type="text/css" href="/Teachers/static/src/css/animated.css"/>
+            <link rel="stylesheet" type="text/css" href="/Teachers/static/src/css/owl.css"/>
+            <link rel="stylesheet" type="text/css" href="/Teachers/static/src/css/fontawesome.css"/>
+            <link rel="stylesheet" type="text/css" href="/Teachers/static/src/css/templatemo-onix-digital.css"/>
+            <link rel="stylesheet" type="text/css" href="/Teachers/static/src/vendor/bootstrap/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css"
+                  href="/Teachers/static/src/vendor/bootstrap/css/bootstrap.min.css.map"/>
+
+
+        </xpath>
+        <xpath expr="link[last()]" position="after">
+            <script type="text/javascript" src="/Teachers/static/src/js/animation.js"/>
+            <!--            <script type="text/javascript" src="/Teachers/static/src/js/custom.js"/>-->
+            <script type="text/javascript" src="/Teachers/static/src/js/imagesloaded.js"/>
+            <script type="text/javascript" src="/Teachers/static/src/js/isotope.js"/>
+            <script type="text/javascript" src="/Teachers/static/src/js/owl-carousel.js"/>
+
+            <script type="text/javascript" src="/Teachers/static/src/js/tabs.js"/>
+
+            <!--            <script type="text/javascript" src="/Teachers/static/src/vendor/jquery/jquery.js"/>-->
+            <!--            <script type="text/javascript" src="/Teachers/static/src/vendor/jquery/jquery.min.js"/>-->
+            <!--            <script type="text/javascript" src="/Teachers/static/src/vendor/jquery/jquery.map"/>-->
+            <!--            <script type="text/javascript" src="/Teachers/static/src/vendor/jquery/jquery.slim.js"/>-->
+            <!--            <script type="text/javascript" src="/Teachers/static/src/vendor/jquery/jquery.slim.min.js"/>-->
+            <!--            <script type="text/javascript" src="/Teachers/static/src/vendor/jquery/jquery.slim.min.map"/>-->
+            <!--            <script type="text/javascript" src="/Teachers/static/src/vendor/bootstrap/js/bootstrap.bundle.min.js"/>-->
+            <!--            <script type="text/javascript" src="/Teachers/static/src/vendor/bootstrap/js/bootstrap.bundle.min.js.map"/>-->
+            <!--            <script type="text/javascript" src="/Teachers/static/src/vendor/bootstrap/js/bootstrap.min.js"/>-->
+
+
+        </xpath>
+
+    </template>
+</odoo>
